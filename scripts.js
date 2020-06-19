@@ -1,6 +1,6 @@
 let a = 0
 
-$('#increase').click(() => {
+$('#increase').on('click', () => {
     a++;
     $('h2').text(a);
   });
